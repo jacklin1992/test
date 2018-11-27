@@ -1,0 +1,21 @@
+{
+    "name": "jacklin/test",
+    "description": "jacklin的composer包",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jacklin",
+            "email": "361525737@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+    "psr-4": {
+        "Test\\": "src/"
+    }
+}
+}
